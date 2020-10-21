@@ -1,0 +1,35 @@
+# DDP LAB-2
+
+# SOAL 1 - Mencetak bilangan
+# Tuliskan program untuk Soal 1 di bawah ini
+
+#menggunakan pengulangan for
+
+for i in range(100, 1, -2):
+  print(i)
+
+
+# SOAL 2 - Menghitung rata-rata
+# Tuliskan program untuk Soal 2 di bawah ini
+
+# memasukkan perintah secara berulang untuk memasukkan angka
+nilai = int(input("masukkan banyaknya angka"))
+
+# memasukkan angka yang akan dihitng rata-rata
+a = int(input("masukkan angka"))
+b = int(input("masukkan angka"))
+c = int(input("masukkan angka"))
+
+
+#menghitung rata-rata
+average = (int(a)+int(b)+int(c))/nilai
+print ("rata-rata bilangan "+str(a)+","+str(b)+","+str(c)+ " adalah", average)
+
+
+
+# SOAL 3 - Mencetak persegi
+# Tuliskan program untuk Soal 3 di bawah ini
+
+#masukkan bilangan bulat untuk membentuk persegi dengan menggunakan " # "
+for i in range(4):
+  print(" # " * 4)
